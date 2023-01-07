@@ -1,0 +1,26 @@
+.cFooterWrapper {
+  width: 100%;
+  margin-top: 5rem;
+}
+.cFooterWrapper > hr {
+  width: 100%;
+  height: 1px;
+  border: none;
+  background: white;
+  margin-top: 1rem;
+}
+.cFooter {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.logo {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.logo > img {
+  width: 4em;
+  height: 4em;
+  justify-content: center;
+}
